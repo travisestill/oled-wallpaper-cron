@@ -1,0 +1,3 @@
+# Runs fetch-oled-wallpapers.sh at 6:00 AM every 3rd day of the month.
+# Install with: crontab -e   (then paste the line below, adjusting the path)
+0 6 */3 * * /home/travise/.local/bin/fetch-oled-wallpapers.sh >> /home/travise/.cache/oled-wallpapers.log 2>&1
