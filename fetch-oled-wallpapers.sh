@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-WALLPAPER_DIR="/home/travise/Pictures/Wallpaper"
+WALLPAPER_DIR="${WALLPAPER_DIR:-$HOME/Pictures/Wallpaper}"
 BASE_URL="https://ultrawidewallpapers.net"
 GALLERY_URL="${BASE_URL}/gallery?lang=en&tags=OLED"
 LOAD_URL="${BASE_URL}/gallery_load.php"
